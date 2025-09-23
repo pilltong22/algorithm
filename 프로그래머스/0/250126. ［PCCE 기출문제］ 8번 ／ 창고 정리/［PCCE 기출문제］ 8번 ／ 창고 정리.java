@@ -6,7 +6,7 @@ class Solution {
         
         for(int i=0; i<storage.length; i++){
             int clean_idx = -1;
-            for(int j=0; j<num_item; j++){
+            for(int j=0; j<num_item; j++){ㅇ
                 if(storage[i].equals(clean_storage[j])){
                     clean_idx = j;
                     break;
